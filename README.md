@@ -26,6 +26,12 @@ if 1 == 1 and \
     2 == 2:
     print('Do not do that!')
 
+# Do not reimplement chaining:
+some_object \
+  .call_method() \
+  .call_other() \
+  .finalize()
+
 ```
 
 ## Error codes

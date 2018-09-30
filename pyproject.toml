@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "flake8-broken-line"
 version = "0.1.0"
-description = "Flake8 plugin to enforce consistent type annotation styles"
+description = "Flake8 plugin to forbid backslashes for line breaks"
 
 license = "MIT"
 
