@@ -36,9 +36,9 @@ some_object \
 
 ## Error codes
 
-| Error code |                   Description                 |
-|:----------:|:---------------------------------------------:|
-|    N400    | Found backslash that is used for line braking |
+| Error code |                   Description                  |
+|:----------:|:----------------------------------------------:|
+|    N400    | Found backslash that is used for line breaking |
 
 ## License
 
