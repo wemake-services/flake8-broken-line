@@ -12,7 +12,7 @@ pkg_version: str = pkg_resources.get_distribution(pkg_name).version
 
 INVALID_LINE_BREAK = re.compile(r'(?<!\\)\\$', re.M)
 
-N400 = 'N400: Found backslash that is used for line braking'
+N400 = 'N400: Found backslash that is used for line breaking'
 
 
 def check_line_breaks(physical_line: str) -> Optional[Tuple[int, str]]:
