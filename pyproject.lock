@@ -186,7 +186,7 @@ description = "Flake8 lint for quotes."
 name = "flake8-quotes"
 optional = false
 python-versions = "*"
-version = "1.0.0"
+version = "2.0.0"
 
 [package.dependencies]
 flake8 = "*"
@@ -398,7 +398,7 @@ python-versions = "*"
 version = "1.3.1"
 
 [metadata]
-content-hash = "657c09e5acb8ae733cd4139b69fc96badc6ecec6ac7ed6e21dba5fb9195f4c2d"
+content-hash = "b1d1cbb85511e3327068d88f82c4d9395023c22fa1ec2aebfe07756b018635cf"
 python-versions = "^3.6 || ^3.7"
 
 [metadata.hashes]
@@ -419,7 +419,7 @@ flake8-pep3101 = ["493821d6bdd083794eb0691ebe5b68e5c520b622b269d60e54308fb97440e
 flake8-polyfill = ["12be6a34ee3ab795b19ca73505e7b55826d5f6ad7230d31b18e106400169b9e9", "e44b087597f6da52ec6393a709e7108b2905317d0c0b744cdca6208e670d8eda"]
 flake8-print = ["5010e6c138b63b62400da4b06afa33becc5e08bd1fcce9af3752445cf3342f54"]
 flake8-pytest = ["61686128a79e1513db575b2bcac351081d5a293811ddce2d5dfc25e8c762d33e", "b4d6703f7d7b646af1e2660809e795886dd349df11843613dbe6515efa82c0f3"]
-flake8-quotes = ["fd9127ad8bbcf3b546fa7871a5266fd8623ce765ebe3d5aa5eabb80c01212b26"]
+flake8-quotes = ["3529054055d366812eb882ce35369a91218d55fd95000fa586e07cb84b3fbf69"]
 flake8-string-format = ["68ea72a1a5b75e7018cae44d14f32473c798cf73d75cbaed86c6a9a907b770b2", "774d56103d9242ed968897455ef49b7d6de272000cfa83de5814273a868832f1"]
 isort = ["1153601da39a25b14ddc54955dbbacbb6b2d19135386699e2ad58517953b34af", "b9c40e9750f3d77e6e4d441d8b0266cf555e7cdabdcff33c4fd06366ca761ef8", "ec9ef8f4a9bc6f71eec99e1806bfa2de401650d996c59330782b89a5555c1497"]
 mccabe = ["ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42", "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"]
