@@ -48,7 +48,7 @@ flake8 = "^3.5"
 [tool.poetry.dev-dependencies]
 pytest-cov = "^2.7"
 pytest-flake8 = "^1.0"
-pytest-randomly = "^3.0"
+pytest-randomly = "^3.1"
 pytest-isort = "^0.3"
 pytest = "^5.1"
 flake8-pytest = "^1.3"
