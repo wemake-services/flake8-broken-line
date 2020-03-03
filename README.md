@@ -26,11 +26,18 @@ if 1 == 1 and \
     2 == 2:
     print('Do not do that!')
 
-# Do not reimplement chaining:
+# Do not use for method chaining:
 some_object \
-  .call_method() \
-  .call_other() \
+  .call_method(param1, param2) \
+  .call_other(keyword=value) \
   .finalize()
+
+# Instead use:
+some_objects.call_method(
+    param1, param2,
+).call_other(
+    keyword=value
+).finalize()
 
 ```
 
