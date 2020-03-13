@@ -40,4 +40,4 @@ def test_incorrect_fixture(absolute_path):
     )
     stdout, _ = process.communicate()
 
-    assert stdout.count(b'N400') == 7
+    assert stdout.count(b'N400') == 6

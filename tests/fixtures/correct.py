@@ -9,6 +9,21 @@ multiline_string = (
     '\\'
 )
 
+# A remote path can be entered.  e.g.:  \\server\
+
+raw_string = r'\\'
+
 second_multiline = """
 This is a text with \a and trailing backslash char: \\
+"""
+
+second_multiline = """
+This is trailing backslash line break: \
+and next line.
+"""
+
+
+third_multiline = """
+This is trailing backslash line break with extra spaces: \
+and next line.
 """

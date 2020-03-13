@@ -4,6 +4,7 @@ dist: xenial
 python:
   - 3.6
   - 3.7
+  - 3.8
 
 install:
   - pip install poetry
@@ -13,6 +14,9 @@ script:
   - poetry run flake8 .
   - poetry run pytest
   - poetry run mypy flake8_broken_line.py
+  - poetry check
+  - poetry run pip check
+  - poetry run safety check --bare --full-report
 
 after_success:
   - pip install coveralls

@@ -14,14 +14,5 @@ multiline_sting\
     .rstrip()\
     .lstrip()
 
-
-second_multiline = """
-This is trailing backslash line break: \
-and next line.
-"""
-
-
-third_multiline = """
-This is trailing backslash line break with extra spaces: \   
-and next line.
-"""
+1 + some \
+    .call()
