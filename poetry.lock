@@ -121,7 +121,7 @@ description = "Check for python builtins being used as variables or parameters."
 name = "flake8-builtins"
 optional = false
 python-versions = "*"
-version = "1.4.2"
+version = "1.5.2"
 
 [package.dependencies]
 flake8 = "*"
@@ -609,7 +609,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "16b71ecebbd011bca34e00c57e5ce7a2280bcabb6d5ab3829706137408ae37ad"
+content-hash = "614d529fde54dbce8896dd22881ef3c94ba79bdc328cdc1b18d6fbd2530df263"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -687,8 +687,8 @@ flake8-bugbear = [
     {file = "flake8_bugbear-20.1.4-py36.py37.py38-none-any.whl", hash = "sha256:a3ddc03ec28ba2296fc6f89444d1c946a6b76460f859795b35b77d4920a51b63"},
 ]
 flake8-builtins = [
-    {file = "flake8-builtins-1.4.2.tar.gz", hash = "sha256:c44415fb19162ef3737056e700d5b99d48c3612a533943b4e16419a5d3de3a64"},
-    {file = "flake8_builtins-1.4.2-py2.py3-none-any.whl", hash = "sha256:29bc0f7e68af481d088f5c96f8aeb02520abdfc900500484e3af969f42a38a5f"},
+    {file = "flake8-builtins-1.5.2.tar.gz", hash = "sha256:fe7be13fe51bfb06bdae6096c6488e328c822c3aa080e24b91b77116a4fbb8b0"},
+    {file = "flake8_builtins-1.5.2-py2.py3-none-any.whl", hash = "sha256:a0296d23da92a6f2494243b9f2039bfdb73f34aba20054c1b70b2a60c84745bb"},
 ]
 flake8-coding = [
     {file = "flake8-coding-1.3.2.tar.gz", hash = "sha256:b8f4d5157a8f74670e6cfea732c3d9f4291a4e994c8701d2c55f787c6e6cb741"},
