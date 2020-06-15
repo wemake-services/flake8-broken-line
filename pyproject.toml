@@ -49,7 +49,7 @@ flake8 = "^3.5"
 pytest-cov = "^2.10"
 pytest-flake8 = "^1.0"
 pytest-randomly = "^3.4"
-pytest-isort = "^0.3"
+pytest-isort = "^1.0"
 pytest = "^5.4"
 
 flake8-pytest = "^1.3"
