@@ -27,3 +27,13 @@ third_multiline = """
 This is trailing backslash line break with extra spaces: \
 and next line.
 """
+
+fourth_multiline = """\
+This is a multiline block with no prepended newline
+and next line.
+"""
+
+fifth_multiline = '''\
+This is a multiline block with no prepended newline
+and next line.
+'''
