@@ -2,6 +2,14 @@
 
 We follow Semantic Versions since the `0.1.0` release.
 
+
+## 0.2.1
+
+### Bugfixes
+
+- Fixes incorrect `\` detection inside the `"""`
+
+
 ## 0.2.0
 
 ### Features
