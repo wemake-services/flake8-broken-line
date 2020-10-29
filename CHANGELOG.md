@@ -3,6 +3,18 @@
 We follow Semantic Versions since the `0.1.0` release.
 
 
+## 0.3.0
+
+### Features
+
+- `python3.9` support
+
+### Misc
+
+- Moves to Github Actions
+- Poetry version update
+
+
 ## 0.2.1
 
 ### Bugfixes
