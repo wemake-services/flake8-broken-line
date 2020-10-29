@@ -1,6 +1,6 @@
 import re
-from typing import Iterator, Tuple, Sequence, Set
 import tokenize
+from typing import Iterator, Sequence, Set, Tuple
 
 import pkg_resources
 
