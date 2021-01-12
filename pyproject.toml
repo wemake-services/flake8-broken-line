@@ -16,8 +16,8 @@ authors = [
 
 readme = "README.md"
 
-repository = "https://github.com/sobolevn/flake8-broken-line"
-homepage = "https://github.com/sobolevn/flake8-broken-line"
+repository = "https://github.com/wemake-services/flake8-broken-line"
+homepage = "https://github.com/wemake-services/flake8-broken-line"
 
 keywords = [
   "flake8",
