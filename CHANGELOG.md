@@ -3,6 +3,14 @@
 We follow Semantic Versions since the `0.1.0` release.
 
 
+## 0.4.0
+
+### Features
+
+- `python3.10` support
+- `flake8@4.0` support
+
+
 ## 0.3.0
 
 ### Features
