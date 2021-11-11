@@ -51,7 +51,7 @@ mypy = "^0.910"
 types-setuptools = "^57.0"
 
 pytest-cov = "^3.0"
-pytest-randomly = "^3.8"
+pytest-randomly = "^3.10"
 pytest = "^6.2"
 
 flake8-print = "^4.0"
