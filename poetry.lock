@@ -458,7 +458,7 @@ testing = ["fields", "hunter", "process-tests", "six", "pytest-xdist", "virtuale
 
 [[package]]
 name = "pytest-randomly"
-version = "3.10.2"
+version = "3.10.3"
 description = "Pytest plugin to randomly order tests and control random.seed."
 category = "dev"
 optional = false
@@ -826,8 +826,8 @@ pytest-cov = [
     {file = "pytest_cov-3.0.0-py3-none-any.whl", hash = "sha256:578d5d15ac4a25e5f961c938b85a05b09fdaae9deef3bb6de9a6e766622ca7a6"},
 ]
 pytest-randomly = [
-    {file = "pytest-randomly-3.10.2.tar.gz", hash = "sha256:2c0a332c4b124e372e2473803bcc91ec87797664f4955afef2b844c0021662b1"},
-    {file = "pytest_randomly-3.10.2-py3-none-any.whl", hash = "sha256:cbd5c50b7c41491c202c71a3df33a75619d610a4f5c34aa2bd02ac30fce7cd43"},
+    {file = "pytest-randomly-3.10.3.tar.gz", hash = "sha256:22154cdcff7ba44e0599596490e6b75278ca973a33812ea6a54bf14d0b042ef1"},
+    {file = "pytest_randomly-3.10.3-py3-none-any.whl", hash = "sha256:b05a7a45f54cae2b5095752c6a10cb559df84448421b0420ae492dd2fb1727ef"},
 ]
 pyyaml = [
     {file = "PyYAML-6.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:d4db7c7aef085872ef65a8fd7d6d09a14ae91f691dec3e87ee5ee0539d516f53"},
