@@ -47,7 +47,7 @@ python = "^3.6"
 flake8 = ">=3.5,<5"
 
 [tool.poetry.dev-dependencies]
-mypy = "^0.940"
+mypy = "^0.941"
 types-setuptools = "^57.4"
 
 pytest-cov = "^3.0"
