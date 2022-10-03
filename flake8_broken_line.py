@@ -2,17 +2,23 @@ import re
 import tokenize
 from typing import Iterator, Sequence, Set, Tuple
 
-import pkg_resources
+try:  # pragma: no cover
+    from importlib import metadata as importlib_metadata  # type: ignore
+except ImportError:  # pragma: no cover
+    import importlib_metadata  # type: ignore
 
 #: This is a name that we use to install this library:
 pkg_name = 'flake8-broken-line'
 
 #: We store the version number inside the `pyproject.toml`:
-pkg_version: str = pkg_resources.get_distribution(pkg_name).version
+pkg_version = importlib_metadata.version(pkg_name)
 
 _INVALID_LINE_BREAK = re.compile(r'(?<!\\)\\$', re.M)
 _INVALID_MULTILINE_BACKSLASH = re.compile(r'(?<![\']{3}|[\"]{3})\\$', re.M)
-CONDITIONS = [_INVALID_LINE_BREAK, _INVALID_MULTILINE_BACKSLASH]
+_CONDITIONS = (
+    _INVALID_LINE_BREAK,
+    _INVALID_MULTILINE_BACKSLASH,
+)
 _IGNORED_TOKENS = frozenset((
     tokenize.STRING,
     tokenize.COMMENT,
@@ -38,7 +44,7 @@ def check_line_breaks(
         if line_token.start[0] in reported:
             continue  # There might be several tokens on a same line.
 
-        if all(condition.search(line_token.line) for condition in CONDITIONS):
+        if all(condition.search(line_token.line) for condition in _CONDITIONS):
             yield (*line_token.start, _N400, 'check_line_breaks')
             reported.add(line_token.start[0])
 

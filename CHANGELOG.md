@@ -3,6 +3,14 @@
 We follow Semantic Versions since the `0.1.0` release.
 
 
+## 0.6.0
+
+### Features
+
+- Drops `python3.6` support
+- Now uses `importlib_metadata` instead of `pkg_resources`
+
+
 ## 0.5.0
 
 ### Features
