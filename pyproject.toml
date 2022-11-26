@@ -67,6 +67,8 @@ pep8-naming = "^0.13"
 
 safety = "^2.2"
 
+typed-ast = { version = "*", python = "<3.8" }
+
 
 [build-system]
 requires = ["poetry-core>=1.2.0"]
