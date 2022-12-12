@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flake8-broken-line"
-version = "0.7.0"
+version = "0.6.1"
 description = "Flake8 plugin to forbid backslashes for line breaks"
 
 license = "MIT"
