@@ -53,7 +53,7 @@ pytest-randomly = "^3.10"
 pytest = "^7.0"
 
 flake8-print = "^4.0"
-flake8-builtins = "^1.5"
+flake8-builtins = ">=1.5,<3.0"
 flake8-commas = "^2.0"
 flake8-quotes = "^3.2"
 flake8-comprehensions = "^3.5"
