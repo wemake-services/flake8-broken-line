@@ -42,7 +42,7 @@ N4 = "flake8_broken_line:check_line_breaks"
 [tool.poetry.dependencies]
 python = "^3.7"
 
-flake8 = ">=3.5,<6"
+flake8 = ">=3.5,<7"
 importlib-metadata = { version = "*", python = "<3.8" }
 
 [tool.poetry.group.test.dependencies]
