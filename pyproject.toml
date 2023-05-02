@@ -40,7 +40,7 @@ classifiers = [
 N4 = "flake8_broken_line:check_line_breaks"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7"
 
 flake8 = ">=3.5,<6"
 importlib-metadata = { version = "*", python = "<3.8" }
