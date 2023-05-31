@@ -1,11 +1,7 @@
 import re
 import tokenize
 from typing import Iterator, Sequence, Set, Tuple
-
-try:  # pragma: no cover
-    from importlib import metadata as importlib_metadata  # type: ignore
-except ImportError:  # pragma: no cover
-    import importlib_metadata  # type: ignore
+from importlib import metadata as importlib_metadata
 
 #: This is a name that we use to install this library:
 pkg_name = 'flake8-broken-line'
