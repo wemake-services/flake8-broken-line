@@ -3,6 +3,12 @@
 We follow Semantic Versions since the `0.1.0` release.
 
 
+## 1.0.1
+
+### Features
+
+- Adds `python3.12` support
+
 ## 1.0.0
 
 ### Features
